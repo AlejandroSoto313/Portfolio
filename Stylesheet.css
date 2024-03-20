@@ -15,6 +15,9 @@ h1 {
 body{
     
 }
+li {
+    color: white;
+}
 h3 {
     color: #e94560;
 }
@@ -105,8 +108,35 @@ main{
 
 /*----------------Footer---------------------------*/
 
+/*----------------Contact---------------------------*/
+.contact {
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+.contactInfo {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.contactInfo a {
+    text-decoration: underline;
+    color: #e94560;
+}
+.contactInfo .badge-base{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactInfo a:hover{
+    font-size: 22px;
+    color: floralwhite;
+    transition-duration: 0.5s;
+    border: 1px;
+    background-color: palevioletred;
+    border-radius: 5px;
+}
 /* Responsive layout - makes a one column layout (100%) instead of a two-column layout (50%) 
 @media (max-width: 800px) {
     .flex-item-right, .flex-item-left {
       flex: 100%;
-    } */
+    }*/
