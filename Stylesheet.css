@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+html { 
+    background: url('AdobeStock.jpeg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+h1 {
+    text-align: center;
+    color: #e94560;;
+}
+body{
+    
+}
+h3 {
+    color: #e94560;
+}
+p {
+    color: #f7fafb;
+}
+button{
+    text-align: center;
+    border-radius: 5px;
+    background-color: #345a88;
+    margin: 1em 2em 0em 2em;
+    transition-duration: 0.5s;
+}
+button:hover{
+    background-color: palevioletred;
+	color: floralwhite;
+	font-size: 22px;
+	margin: 0em 2em 0em 2em;
+}
+/*----------------NAV-----------------------------*/
+.nav {
+    border: 1px solid #e94560;
+    background-color: #16213e;
+    display: flex;
+    /*padding-left:3em;
+    padding-right: 2em;*/
+    padding: 5px;
+    justify-content: space-between;
+    height: 6em;
+}
+#item1 {
+    padding:10px;
+    margin: 1em 2em 0em 2em; 
+    text-decoration: underline;
+    color: white;
+    
+}
+#item2 a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+#item2{
+    padding-left: 0px;
+    margin: 1em;
+}
+/*#item1 ,#item2 {
+    border: 1px solid red;
+}*/
+/*----------------Main---------------------------*/
+main{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #16213ec1;
+    border: 1px solid silver;
+}
+.bodymain {
+    display: flex;
+    padding: 10px;
+    flex-direction: wrap;
+    /*border: 1px solid silver;
+    background-color: rgb(53, 78, 87);*/
+}
+.bodymain article, .bodymain aside {
+    flex:50%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    /*background-color: #16213ec1;
+    border: 1px solid silver;*/
+}
+.bodymain aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.myImg{
+    filter: drop-shadow(20px 20px 10px #e94560);
+    border: 1px solid silver;
+}
+
+
+/*----------------Projects---------------------------*/
+
+
+
+
+/*----------------Footer---------------------------*/
+
+/* Responsive layout - makes a one column layout (100%) instead of a two-column layout (50%) 
+@media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    } */
