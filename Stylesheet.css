@@ -38,10 +38,12 @@ button:hover{
 	margin: 0em 2em 0em 2em;
 }
 /*----------------NAV-----------------------------*/
-.nav {
+#navBar {
     border: 1px solid #e94560;
     background-color: #16213e;
+    margin: 20px;
     display: flex;
+    flex-wrap: wrap;
     /*padding-left:3em;
     padding-right: 2em;*/
     padding: 5px;
@@ -53,7 +55,7 @@ button:hover{
     margin: 1em 2em 0em 2em; 
     text-decoration: underline;
     color: white;
-    
+    border: 1px solid red;
 }
 #item2 a {
     color: white;
@@ -135,8 +137,17 @@ main{
     background-color: palevioletred;
     border-radius: 5px;
 }
-/* Responsive layout - makes a one column layout (100%) instead of a two-column layout (50%) 
-@media (max-width: 800px) {
-    .flex-item-right, .flex-item-left {
-      flex: 100%;
-    }*/
+/*Responsive layout - makes a one column layout (100%) instead of a two-column layout (50%) */
+@media (max-width: 500px) {
+    #navBar {
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 100px;
+
+    }
+    .bodymain{
+        display:block;
+    }
+
+}
+}
